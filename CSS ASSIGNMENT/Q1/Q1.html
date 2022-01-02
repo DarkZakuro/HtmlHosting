@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Internal and External Style Sheet</title>
+<!-- this is to link external css file -->
+    <link rel="stylesheet" href="External.css">
+</head>
+<body background="q1.jpg">
+<!-- this is called internal CSS -->
+<style>
+.cont1{
+        height: 100px;
+        width: 100%;
+        background-color:rgb(49, 49, 143);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<main>
+   <!-- this is called inline Css -->
+<h1 style="display: flex; justify-content: center; align-items: center; height: 100px; width: 100%; background-color: rgb(75, 75, 156);" >This Style is Created Using Inline CSS </h1>
+<div class="cont1"><h1><b>This Style is Created Using Internal CSS</b></h1></div>
+<div class="cont2"><h1>This Style is Created Using External CSS </h1>
+<button><a href="Index.html">Back to Home Page</a></button></div>
+</main>  
+</body>
+</html>

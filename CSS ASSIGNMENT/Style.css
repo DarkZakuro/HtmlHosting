@@ -1,0 +1,12 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+li{
+    line-height: 3;
+}

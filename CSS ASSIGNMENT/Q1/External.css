@@ -1,0 +1,30 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+body{
+    padding: 60px;
+}
+
+.cont2{
+    height: 100px;
+    width: 100%;
+    background-color: midnightblue;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    position: absolute;
+    bottom: 10px;
+    padding: 12px;
+
+}
+
+button a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,47 @@
+*{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    padding: 50px;
+
+}
+
+h1{
+
+}
+
+.p1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: cyan;
+    color: darkcyan;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: darkcyan;
+    color: floralwhite;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+button{
+
+    padding: 12px;
+
+}
+
+button a{
+    text-decoration: none;
+}
+
