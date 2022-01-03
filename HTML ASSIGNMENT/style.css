@@ -1,0 +1,29 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    padding-left:50px;
+    padding-top:30px ;
+  
+}
+table {
+    border: 1px solid black;
+
+
+    border-collapse: collapse;
+  }
+td, th{
+text-align: left;
+padding-right:90px ;
+
+}
+
+
+  .tdx {
+    border: 1px solid black;
+  }
+
+  .vdx {
+    border-left: 1px solid black;
+  }
