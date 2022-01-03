@@ -1,7 +1,13 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body{
+  background-image: url("bg.jpg");
+  background-size: cover;
+  /* background-position: center; */
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
 ul.a {
     list-style-type: circle;
   }

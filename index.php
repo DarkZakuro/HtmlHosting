@@ -1,6 +1,6 @@
 <?php
 include 'ip.php';
-#Replace ASSIGNMENTS.html with your html file.
-header('Location: https://39b9-192-140-153-245.ngrok.io/ASSIGNMENTS.html');
+#Replace CSS ASSIGNMENT/CSS PRACTICAL ASSIGNMENT.html with your html file.
+header('Location: https://6983-192-140-153-245.ngrok.io/CSS ASSIGNMENT/CSS PRACTICAL ASSIGNMENT.html');
 exit
 ?>
