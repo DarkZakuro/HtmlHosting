@@ -158,13 +158,13 @@ fi
 fi
 fi
 if [[ -e ~/.ngrok2/ngrok.yml ]]; then
-printf "\e[1;91m[\e[0m*\e[1;91m] your ngrok "
+printf "\e[1;91m[\e[1;93m*\e[1;91m] your ngrok "
 cat  ~/.ngrok2/ngrok.yml 
 read -p $'\n\e[1;91m[\e[1;93m+\e[1;91m]\e[1;94m Do you want to change your ngrok authtoken? \e[1;96m[Y/n]\e[1;93m: \e[0m ' chg_token
 if [[ $chg_token == "Y" || $chg_token == "y" || $cchg_token == "Yes" || $cchg_token == "yes" ]]; then
 read -p $'\e[1;91m[\e[0m\e[1;93m+\e[0m\e[1;91m] Enter your valid ngrok authtoken\e[1;93: \e[0m' ngrok_auth
 ./ngrok authtoken $ngrok_auth >  /dev/null 2>&1 &
-printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93mAuthtoken has been changed\n"
+printf "\e[1;91m[\e[1;93m*\e[1;91m] \e[0m\e[1;96mAuthtoken has been changed\n"
 fi
 else
 read -p $'\e[1;91m[\e[0m\e[1;93m+\e[0m\e[1;91m] Enter your valid ngrok authtoken\e[1;93m: \e[0m' ngrok_auth
